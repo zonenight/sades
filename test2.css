@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #666;
+}
+
+p{
+    color: #777;
+}
+
+.container{
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;  
+}
+
+.home{
+    transition: transform 0.2s ease-in-out;
+}
+
+header{
+    background-color: black;
+}
+
+.search{
+    padding-left: 675px;
+}
+
+.searchbar{
+    width: 200px;
+    height: 25px;
+}
+
+.go{
+    width: 25px;
+    height: 25px;
+}
+
+* {box-sizing:border-box}
+
+/* Main */
+
+main{
+  background-color: #366ed4d5;
+  min-height: 100vh;
+  height: 100%;
+}
+
+/* Slide Size */
+.slideshow {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Text slider */
+.textryun {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Slide number */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.Sectitle {
+  text-align: center;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.proimgpo {
+  float: left;
+  width: 50%;
+  background-color: #366ed4d5;
+}
+
+.imgpro:hover {
+  transform: scale(1.01);
+}
+
+/* Clearfix (clear floats) */
+.proimg::after {
+  clear: both;
+  display: table;
+}
+
+.imgpro {
+  position: relative;
+  width: 100%;
+}
+
+.textpro {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(255, 255, 255);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  font-style: oblique;
+}
+
+footer{
+    background-color: black;
+}
+
+.elements{
+    text-align: center;
+    color: white;
+}
+
+.sadesfoot{
+    margin-left: 200px;
+}
+
+footer {
+  background-color: #000;
+  color: white;
+  padding: 30px 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 50px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 250px;
+  margin: 20px 0;
+}
+
+.footer-section h2 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.footer-section p, .footer-section a {
+  margin-bottom: 10px;
+  color: #aaa;
+}
+
+.footer-section img {
+  margin-top: 10px;
+  max-width: 80%;
+}
+
+.footer-section a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #bbb;
+}
+
+.footer-bottom a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.footer-bottom a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
